@@ -101,7 +101,8 @@ class OrderedList:
 
     def clean(self, asc):
         self.__ascending = asc
-        self.__init__()
+        self.head = None
+        self.tail = None
         pass # здесь будет ваш код
 
     def len(self):
